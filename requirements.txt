@@ -3,7 +3,7 @@ setuptools>=26
 wheel>=0.29
 pytest
 coverage
-urllib
+requests
 black
 yapf
 python-gitlab
