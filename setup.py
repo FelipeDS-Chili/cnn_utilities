@@ -10,8 +10,6 @@ setup(name='cnn_utilities',
       description="Proyecto Description",
       packages=find_packages(),
       install_requires=requirements,
-      test_suite='tests',
       # include_package_data: to install data from MANIFEST.in
       include_package_data=True,
-      scripts=['scripts/cnn_utilities-run'],
       zip_safe=False)
